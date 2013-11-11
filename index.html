@@ -2,18 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Jan Dennison Portfolio Style</title>
+    <title>Jan Dennison Web Development Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Web design portfolio">
+    <meta name="description" content="Web design and development portfolio">
     <meta name="author" content="Jan Dennison">
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.nailthumb.1.1.js"></script>
-
+    <link href="css/jQuery.Opie.PortfolioGallery.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/vendor/shadowbox-3.0.3/shadowbox.css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -28,50 +27,255 @@
                                    <link rel="shortcut icon" href="favicon.png">
   </head>
 
-  <body>
-	<div class="content-container">
+ <body>
+  <div class="content-container">
     <div class="container-narrow">
-
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#resume">Résumé</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="mailto:jldennison@gmail.com">Contact</a></li>
         </ul>
-        <h3 class="muted">Jan Dennison : Portfolio</h3>
+        <h3 class="muted">Web Design & Development</h3>
       </div>
-
-      <hr>
-
       <div class="jumbotron">
-        <h1>Super awesome marketing speak!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <a class="btn btn-large btn-success" href="#">Sign up today</a>
+        <h1>Jan Dennison</h1>
+      </div>
+      <div class="marketing">
+        <h4>&#47;* Professional Summary *&#47;</h4>
+        <p>&#47;&#47; Design & build website templates with performance, browser/device compatibility, mobile responsiveness, and UX flow best practices in mind</p>
+        <p>&#47;&#47; Focus on writing modular, validating, well-documented code</p>
+        <p>&#47;&#47; Leverage web standards, technologies, and industry developments to address opportunities and site issues</p>
+        <p>&#47;&#47; Collaborative, inclusive, flexible team member; bright, creative, and fast-learning</p>
       </div>
 
-	<hr>
-	
-	<div class="row-fluid thumb-row">
-		<div class="span4">
-			<div class="nailthumb-container square"><img src="img/portfolio/mockup1.png" title="Paper Studio & Gallery Option 1"/></div>
-		</div>
-		<div class="span4">
-			<div class="nailthumb-container square"><img src="img/portfolio/mockup2.png" title="Paper Studio & Gallery Option 2"/></div>
-		</div>
-		<div class="span4">
-			<div class="nailthumb-container square"><img src="img/portfolio/mockup3.png" title="Paper Studio & Gallery Option 3"/>
-		</div>
-		</div>
-	</div><!--      end row4-->
-	
-	<div class="row">
-		<div class="span12">
-			<h4>Paper-making Studio and Art Gallery</h4>
-			<p>Photoshop mockups for complete design makeover to update an existing client website.</p>
-		</div>
-	</div>
-
-	<hr>
+<div class="row-fluid" id="portfolio">   
+    <div class="filtering clearfix"> 
+        <ul class="galleryNav" id="portfolioNav"> 
+            <li> 
+                <a class="active" href="#">All</a> 
+            </li> 
+            <li> 
+                <a href="#" data-opie-filter="dev">Development</a> 
+            </li> 
+            <li> 
+                <a href="#" data-opie-filter="desdev">Design &#38; Development</a> 
+            </li> 
+            <li> 
+                <a href="#" data-opie-filter="des">Design</a> 
+            </li> 
+        </ul> 
+    </div> 
+    <hr>
+    <div class="opie-portfolio"> 
+        <div class="o-inner-wrapper"> 
+            <div class="o-box" data-opie-filter="dev"> 
+                <a href="http://www.gillyhicks.com/shop/us/sleep" target="_blank">
+                  <img alt="" src="img/pics/cozyt.png" data-opie-src="img/pics/cozy.png" class="o-big-image" />
+                </a>
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/cozy.png" data-opie-src="img/pics/cozyt.png" class="o-thumb-image" /> 
+                    <div class="o-cover-text"> 
+                      
+                    </div> 
+                </div>
+                <div class="o-extra-info"> 
+                    <h2>Gilly Hicks 'Cozy' Experience Page</h2> 
+                      <p>&#9753; Develop front-end codebase (HTML5, CSS3, JS, jQuery, JSP) to translate design Photoshop comps into dynamic website presentation layers</p>
+                      <p>&#9753; Repositionable images</p>
+                      <p>&#9753; Custom Pinterest share script</p>
+                      <p>&#9753; Holiday marketing initiative, 2013</p>
+                </div>  
+            </div>          
+            <div class="o-box" data-opie-filter="dev"> 
+                <a href="http://www.abercrombie.com/shop/us/mens-a-and-f-weather-warrior" target="_blank">
+                  <img alt="" src="img/pics/anft.png" data-opie-src="img/pics/anf.png" class="o-big-image" /> 
+                </a>
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/anf.png" data-opie-src="img/pics/anft.png" class="o-thumb-image" /> 
+                </div> 
+                <div class="o-extra-info"> 
+                  <h2>Abercrombie &#38; Fitch 'Weather Warrior' Experience Page</h2> 
+                  <p>&#9753; Custom tooltips including HTML5 Video modals</p>
+                  <p>&#9753; Data-driven accordian menu from product category</p>
+                  <p>&#9753; CSS Translation detail page upon "View All Details" click</p>
+                  <p>&#9753; Fall marketing initiative, 2013</p>
+                </div>  
+            </div> 
+            <div class="o-box" data-opie-filter="dev"> 
+                <a href="http://www.abercrombie.com/shop/us/womens-gifts-for-women?urlRequestType=Base" target="_blank">
+                  <img alt="" src="img/pics/anf-wwlt.png" data-opie-src="img/pics/anf-wwl.png" class="o-big-image" />
+                </a> 
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/anf-wwl.png" data-opie-src="img/pics/anf-wwlt.png" class="o-thumb-image" /> 
+                </div> 
+                <div class="o-extra-info"> 
+                  <h2>Abercrombie &#38; Fitch 'What We Love' Gift Guide Experience Page</h2> 
+                  <p>&#9753; Modular sections with multiple layout templates for flexible content</p>
+                  <p>&#9753; Build and test responsive desktop and mobile web pages for cross-browser/cross-platform performance and compatibility</p>
+                  <p>&#9753; Holiday marketing initiative, 2013</p>
+                </div> 
+            </div>
+            <div class="o-box" data-opie-filter="desdev"> 
+                <a href="http://lab-ally.com" target="_blank">
+                  <img alt="" src="img/pics/laballyt.png" data-opie-src="img/pics/labally.png" class="o-big-image" /> 
+                </a>
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/labally.png" data-opie-src="img/pics/laballyt.png" class="o-thumb-image" /> 
+                </div> 
+                <div class="o-extra-info"> 
+                  <h2>Lab-Ally, Inc.</h2> 
+                  <p>&#9753; Custom Wordpress Theme for biotech sales &#38; marketing consultancy startup</p>
+                  <p>&#9753; HTML5 contact form with PHP validation</p>
+                  <p>&#9753; Static homepage with customizable widget sections</p>
+                  <p>&#9753; Blog post type specific layouts; Custom page layouts including full-width and sidebar</p>
+                </div> 
+            </div>
+            <div class="o-box" data-opie-filter="desdev"> 
+                <a href="http://irisnote.com" target="_blank">
+                  <img alt="" src="img/pics/irisnotet.png" data-opie-src="img/pics/irisnote.png" class="o-big-image" />
+                </a> 
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/irisnote.png" data-opie-src="img/pics/irisnotet.png"class="o-thumb-image" /> 
+                </div> 
+                <div class="o-extra-info"> 
+                  <h2>irisnote, Inc</h2> 
+                  <p>&#9753; Created and developed website elements using Photoshop, HTML, CSS, JS, jQuery, PHP, including HTML5 web forms with client-side JS validation and back-end Java application account creation</p>
+                  <p>&#9753; Led corporate website re-design and re-branding processes for scientific software application startup</p>
+                  <p>&#9753; Founded digital marketing initiative including content marketing, email marketing, social networking</p>
+                </div> 
+            </div> 
+            <div class="o-box" data-opie-filter="desdev"> 
+                <a href="http://cobenickstudios.com/csgallery/" target="_blank">
+                  <img alt="" src="img/pics/csgalleryt.png" data-opie-src="img/pics/csgallery.png" class="o-big-image" /> 
+                </a>
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/csgallery.png" data-opie-src="img/pics/csgalleryt.png" class="o-thumb-image" /> 
+                </div> 
+                <div class="o-extra-info"> 
+                  <h2>CS Gallery &#38; Papermaking Art Studio</h2> 
+                  <p>&#9753; Complete custom WordPress theme design, fully responsive, HTML5 CSS3 valid, jQuery/javascript enabled</p>
+                  <p>&#9753; Specialized post/page PHP templates with custom fields for exhibit-specific details</p>
+                  <p>&#9753; Total redesign process from Photoshop mockups to working installation</p>
+                </div> 
+            </div>
+            <div class="o-box" data-opie-filter="des"> 
+                <a href="img/portfolio/mod.png" rel="shadowbox">
+                  <img alt="" src="img/pics/modt.png" data-opie-src="img/pics/mod.png" class="o-big-image" /> 
+                </a>
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/mod.png" data-opie-src="img/pics/modt.png" class="o-thumb-image" /> 
+                </div> 
+                <div class="o-extra-info"> 
+                  <h2>Mod Company</h2> 
+                  <p>&#9753; A quick one-page template example of current flat design principles</p>
+                </div> 
+            </div>
+            <div class="o-box" data-opie-filter="desdev"> 
+                <a href="http://countrygirlstore.com" target="_blank">
+                  <img alt="" src="img/pics/cgst.png" data-opie-src="img/pics/cgs.png" class="o-big-image" /> 
+                </a>
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/cgs.png" data-opie-src="img/pics/cgst.png" class="o-thumb-image" /> 
+                </div> 
+                <div class="o-extra-info"> 
+                  <h2>Country Girl Store</h2> 
+                  <p>&#9753; Extended eCommerce platform front-end code base for design, UX, and performance and launched new online store website</p>
+                  <p>&#9753; Extended HTML, CSS, and JavaScript as needed to accommodate new data, display types, and UX demands</p>
+                </div> 
+            </div>
+            <div class="o-box" data-opie-filter="desdev"> 
+                <a href="http://etsyteamcolumbus.com" target="_blank">
+                  <img alt="" src="img/pics/etct.png" data-opie-src="img/pics/etc.png" class="o-big-image" /> 
+                </a>
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/etc.png" data-opie-src="img/pics/etct.png" class="o-thumb-image" /> 
+                </div> 
+                <div class="o-extra-info"> 
+                  <h2>Columbus-based Artist Collective</h2> 
+                  <p>&#9753; Website design, administration, and branding initiatives</p>
+                  <p>&#9753; Customized Wordpress Theme</p>
+                  <p>&#9753; Custom app created with Etsy.com API to present team member information and shop links</p>
+                </div> 
+            </div>
+            <div class="o-box" data-opie-filter="des"> 
+                <a href="img/portfolio/irisbook.png" rel="shadowbox">
+                  <img alt="" src="img/pics/irisbookt.png" data-opie-src="img/pics/irisbook.png" class="o-big-image" /> 
+                </a>
+                <div class="o-cover"> 
+                    <img alt="" src="img/pics/irisbook.png" data-opie-src="img/pics/irisbookt.png" class="o-thumb-image" />
+                </div> 
+                <div class="o-extra-info"> 
+                  <h2>Flat design</h2> 
+                  <p>&#9753; Design study using flat aesthetic elements</p>
+                  <p>&#9753; Custom icons</p>
+                </div> 
+            </div>
+        </div> 
+    </div> 
+</div><!-- end row -->
+<hr>
+<div class="row-fluid clearfix" id="resume">
+  <div class="span6">
+    <h3>Things I've Picked Up</h3>
+    <ul>
+      <li>HTML, HTML5 Boilerplate</li>
+      <li>CSS, CSS3, SASS pre-processing</li>
+      <li>JavaScript, jQuery
+        <ul>
+          <li>jQuery Sliders</li>
+          <li>JS Form Validation</li>
+          <li>AJAX API calls</li>
+        </ul></li>
+      <li>Responsive Frameworks
+        <ul>
+          <li>Twitter Bootstrap</li>
+          <li>Wordpress Genesis Framework</li>
+          <li>Developed custom frameworks</li>
+        </ul></li>
+      <li>Web Font Integration</li>
+      <li>Version Control, Subversion, GitHub</li>
+      <li>WordPress Templating & PHP</li>
+      <li>Agile Development Process</li>
+      <li>CSS Animations/Transitions</li>
+    </ul>
+  </div>
+  <div class="span6">
+    <h3>Used In This Site</h3>
+        <ul>  
+          <li><a target="_blank" href="http://html5boilerplate.com/" title="HTML5 Boilerplate">HTML5 Boilerplate</a></li>
+          <li><a target="_blank" href="http://twitter.github.com/bootstrap/" title="Bootstrap">Twitter Bootstrap Grid</a></li>
+          <li><a href="http://pages.github.com/" title="Github Pages">GitHub Pages</a></li>
+          <li><a target="_blank" href="http://www.garralab.com/nailthumb.php" title="jquery thumbnail">jQuery NailThumb image thumbnail creator</a></li>
+          <li><a target="_blank" href="http://www.shadowbox-js.com/index.html" title="Shadowbox javascript">Shadowbox javascript image viewer</a></li>
+          <li>Screen-based responsive breakpoints</li>
+          <li><a href="http://www.opiescripts.com/responsive-fully-customizable-jquery-portfolio-gallery">jQuery Responsive Portfolio Gallery</a></li>
+        </ul>
+  </div>
+</div>
+<hr>
+<div class="row-fluid" id="about">
+  <div class="span8">
+    <p>(@jannypie)</p>
+    <p>I have a degree in Biology (I like science) and 6 years experience in biotech and biodefense research.</p>
+    <p>I do web design stuff for a living (I like computers) and enjoy writing HTML and CSS to make the innernets look better.</p>
+    <p>I make pretty pictures (I like art) and sell them in galleries, online, and at arts &amp; crafts shows. </p>
+    <p>
+      <a href="http://www.etsy.com/shop/jannypie">Here is my Etsy shop</a>
+    </p>
+    <p>
+      <a href="http://i.imgur.com/iA0h9qx.jpg">Here is a cute picture of some owls</a>
+    </p>
+    <p>
+      <a href="http://www.albinoblacksheep.com/flash/end">This is my favorite thing on the internet</a>
+    </p>  
+  </div>
+  <div class="span4">
+    <img src="img/jan.jpg" alt="is me" title="It's me!"/>
+  </div>
+</div><!-- end row -->
+  <hr>
 
       <div class="footer">
         <p>&copy; Jan Dennison</p>
@@ -83,32 +287,53 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="js/vendor/shadowbox-3.0.3/shadowbox.js"></script>
+<script type="text/javascript" src="js/jQuery.easing.min.js"></script>
+<script type="text/javascript" src="js/jQuery.Opie.PortfolioGallery.min.js"></script>
 <script type="text/javascript">
-                jQuery(document).ready(function() {
-                    jQuery('.nailthumb-image-titles-animated-onhover').nailthumb();
-                });
-            </script>  
-            <script type="text/javascript">
-                jQuery(document).ready(function() {
-                    jQuery('.nailthumb-container').nailthumb();
-                });
-</script> 
-
+  $(document).ready(function() {
+      $(".opie-portfolio").OpiePortfolioGallery({
+           maxBoxSize : 195,
+           showMore : 6,
+           boxMovementDuration : 300,
+           delayIncrease : 100,
+           delayStart : 0,
+           maxDelay : 0,
+           scrollingAid : false,
+           boxPositionEasing : 'linear',
+           extraInfoOpenDuration : 400,
+           extraInfoOpenEasing : 'linear',
+           extraInfoCloseDuration : 350,
+           extraInfoCloseEasing : 'linear',
+           boxOpenEasing : 'linear',
+           boxOpenDuration : 300,
+           boxCloseEasing : 'linear',
+           boxCloseDuration : 300,
+           userCSS3Accelerate : false,
+           filterNavSelector : '#portfolioNav a',
+           dontResizeThumbs : false,
+           useCentering : false
+       });
+   });
+</script>
+<script type="text/javascript">
+var $root = $('html, body');
+$('a').click(function() {
+    var href = $.attr(this, 'href');
+    $root.animate({
+        scrollTop: $(href).offset().top
+    }, 500, function () {
+        window.location.hash = href;
+    });
+    return false;
+});
+</script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>
   </body>
 </html>
 
