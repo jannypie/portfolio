@@ -622,12 +622,21 @@ header p, article.dbc-blog p {
     }
     #intro img {
       float: left;
-
       margin: auto 3em;
-}
+      border-color: rgb(230, 199, 173);
+      border-width: 4px;
+      border-style: solid;
+      border-radius: 4px;
+      box-shadow: 1px 1px rgb(120, 74, 35);
+    }
+    #intro img + div {
+      display: inline-block;
+      width: 65%;
+    }
     #intro-cont {
       margin-bottom: 3em;
     }
+
     .column-me h2, .column-me h4 {
       float: left;
       vertical-align: top;
