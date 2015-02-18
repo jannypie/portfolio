@@ -1,6 +1,8 @@
 body {
   background-color: #57482A;
-
+}
+img {
+  border: 0;
 }
 .cave {
   width: 100%;
