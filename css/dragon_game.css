@@ -1,0 +1,82 @@
+body {
+  background-color: #57482A;
+
+}
+.cave {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.hoard,.pile {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.character {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  left: 40%;
+  margin-left: -25%;
+}
+.pile {
+  right: 0;
+  z-index: 10;
+}
+
+/* objects*/
+.coins {
+  position: absolute;
+  bottom: 15%;
+  width: 40%;
+  left: 10%;
+}
+.dragon {
+  width: 100%;
+  z-index: 1;
+}
+.armor, .chalice, .coinpurse {
+  width: 15%;position: absolute;
+}
+.necklace, .ring {
+  width: 10%;position: absolute;
+}
+.fire-wrap {
+  position: absolute;
+  bottom: -10%;
+}
+.fire {
+  opacity: 0;
+  width: 17.5%;
+  right: 5%;
+  bottom: 53%;
+  position: absolute;
+  z-index: 10;
+}
+.ring {
+  bottom: 15%;
+  left: 35%;
+}
+.necklace {
+  bottom: 16%;
+  right: 30%;
+}
+.armor {
+  bottom: 14%;
+  right: 35%;
+}
+.chalice {
+  bottom: 15%;
+  left: 40%;
+}
+.coinpurse {
+  bottom: 14%;
+  right: 20%;
+}
+
+/* scene */
+.hoard {
+
+}
